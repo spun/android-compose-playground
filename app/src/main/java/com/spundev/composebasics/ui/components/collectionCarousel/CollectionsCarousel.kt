@@ -70,8 +70,8 @@ fun CollapsedCarousel(
                         painter = rememberCoilPainter(request = plantCollection.imageUrl),
                         contentDescription = null,
                         contentScale = ContentScale.Crop,
-
-                        )
+                        modifier = Modifier.fillMaxSize()
+                    )
 
                     // Gradient on top of image
                     Box(
